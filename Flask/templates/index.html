@@ -1,333 +1,296 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  
+
 <head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
-        rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
-        crossorigin="anonymous">
-  
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
-  </script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
-  </script>
-  <title>Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+
+    <!-- Custom styles for this template -->
+    <link href="static/css/app.css" rel="stylesheet" />
+    <title>John Doe | Portfolio</title>
 </head>
-  
+
 <body>
-  
-  <div class="text-center">
-  
-    <img src="https://media.geeksforgeeks.org/wp-content/uploads/geeksforgeeks-12.png" 
-         style="width:30%; height: 100px;"
-      alt="...">
-  </div>
-  
-  <!-- Navbar Section -->
-  <nav class="navbar navbar-expand-sm bg-success navbar-light">
-    <!-- Brand/logo -->
-    <a class="navbar-brand" href="">
-      <img src="https://www.geeksforgeeks.org/wp-content/uploads/gfg_transparent_white_small.png" alt="logo"
-        style="width:40px;">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" 
-            data-target="#collapse_Navbar">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="collapse_Navbar">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link text-white" href="#educational-info">Education</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white" href="#Prof-skill">Professional Skills</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white" href="#contact-us">Contact Us</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-  
-  
-  <!-- Carousel wrapper -->
-  <div id="carouselExampleControls" class="carousel slide text-center carousel-dark" 
-       data-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img class="rounded-circle shadow-1-strong mb-4"
-          src="../static/images/gfglogo.jpg" alt="avatar" style="width: 150px;" />
-        <div class="row d-flex justify-content-center">
-          <div class="col-lg-8">
-            <h5 class="mb-3">Suraj Kr. Gupta</h5>
-              
-<p>Python - TCE</p>
-  
-            <p class="text-muted">
-              <i class="fas fa-quote-left pe-2"></i>
-              A Technical Content Engineer is a technologist
-              that ensures that Tetrate's 
-              products are positioned in such a way that they
-              effectively represent the 
-              value we provide to our clients. This entails
-              creating unique marketing 
-              solutions and communications that clearly 
-              communicate our products' 
-              technical and business benefits.
-            </p>
-  
-          </div>
+
+    <header>
+        <div class="wave">
+            <div class="container header-container">
+                <h1 class="name">John Doe.</h1>
+                <h3 class="subtitle text-center">Building beautiful applications that just work.</h3>
+                     <img src="static/images/portfolio_pic.png" class="boy" alt="boy image"/> 
+            </div>
         </div>
-        <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
-          <li><i class="fas fa-star fa-sm"></i></li>
-          <li><i class="fas fa-star fa-sm"></i></li>
-          <li><i class="fas fa-star fa-sm"></i></li>
-          <li><i class="fas fa-star fa-sm"></i></li>
-          <li><i class="far fa-star fa-sm"></i></li>
-        </ul>
-      </div>
-  
-    </div>
-      
-  </div>
-  <!-- Carousel wrapper -->
-  
-  
-  <div class="section" id="about">
-    <div class="container">
-      <div class="card aos-init aos-animate" 
-           data-aos="fade-up" data-aos-offset="10">
+        <div class="wave-svg">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" opacity="1" width="100%" height="80"
+                preserveAspectRatio="none" viewBox="0 0 1600 200">
+                <path d="M-8,95.3C-8,95.3,189,2,398,2s604,184.7,800,184.7s412-91.4,412-91.4V271H-8V95.3z" />
+                <path
+                    d="M1610,95.3c0,0-216,80-412,80c-98,0-245.8-40.5-395.1-80.9c149.4,46.2,297.1,92.3,395.1,92.3C1394,186.7,1610,95.3,1610,95.3z" />
+            </svg>
+        </div>
+    </header>
+
+    <section class="container">
+        <h1 class="title">Thanks for stopping by.
+        </h1>
+        <h3 class="subtitle">I am an enthusiastic software developer with a passion for creating beautiful
+            web
+            applications
+            built on
+            JavaScript technologies. </h3>
+    </section>
+
+
+    <section class="container skill-container">
         <div class="row">
-          <div class="col-lg-6 col-md-12">
-            <div class="card-body">
-              <div class="h4 mt-0 title">About</div>
-                
-<p>Recent graduate with an MS in Computer Science looking to 
-                leverage my experience 
-                building responsive and scalable web... Lorem ipsum, 
-                dolor sit amet consectetur adipisicing elit.
-                "Graduate of computer science with experience working across 
-                the full-stack of software development. Ive built a few.
-            </div>
-          </div>
-  
-          <div class="col-lg-6 col-md-12">
-            <div class="card-body">
-              <div class="h4 mt-0 title">Basic Information</div>
-              <div class="row">
-                <div class="col-sm-4">
-                  <strong class="text-uppercase">
-                    Age:
-                  </strong></div>
-                <div class="col-sm-8">25</div>
-              </div>
-              <div class="row mt-3">
-                <div class="col-sm-4">
-                  <strong class="text-uppercase">
-                    Email:
-                  </strong></div>
-                <div class="col-sm-8">S***@gmail.com</div>
-              </div>
-              <div class="row mt-3">
-                <div class="col-sm-4">
-                  <strong class="text-uppercase">
-                    Phone:
-                  </strong></div>
-                <div class="col-sm-8">8*******89</div>
-              </div>
-              <div class="row mt-3">
-                <div class="col-sm-4">
-                  <strong class="text-uppercase">
-                    Address:
-                  </strong></div>
-                <div class="col-sm-8">
-                  Patna, Bihar, India
-                </div>
-              </div>
-              <div class="row mt-3">
-                <div class="col-sm-4">
-                  <strong class="text-uppercase">
-                    Language:
-                  </strong></div>
-                <div class="col-sm-8">English, Hindi</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  
-  <div class="section" id="skill">
-    <div class="container my-2">
-      <div class="h4 text-center mb-4 title" id="educational-info">
-        Education
-      </div>
-      <div class="card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-        <div class="card-body">
-          <div class="h5">Master in Computer Application</div>
-          <p class="category">LNMI INSTITUTE OF TECHNOLOGY</p>
-  
-            
-<p>Lorem ipsum, dolor sit amet consectetur adipisicing 
-            elit. Suscipit, dolore.</p>
-  
-            
-<p>
-            <b>Projects:</b><br>
-          <ul>
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-              Praesentium a veritatis voluptas 
-              officiis distinctio molestiae nesciunt in eos nulla quam!</li>
-            <li>Lorem ipsum dolor sit amet, consectetur adipisicing e
-              lit. Facilis, assumenda.</li>
-          </ul>
-          </p>
-  
-        </div>
-      </div>
-    </div>
-  </div>
-  
-  <div class="section" id="skill">
-    <div class="container my-2">
-      <div class="h4 text-center mb-4 title" id="Prof-skill">Professional Skills</div>
-      <div class="card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-        <div class="card-body">
-          <b>Programming Languages:</b> R, Python, SQL, GoLang<br><br>
-          <b>Tools:</b> NumPy, Pandas, Matplotlib, MS Excel, OpenCV<br><br>
-          <b>Database Management Systems:</b> MySQL, , postgres, MongoDB, SQLite3<br><br>
-          <b>Internet Technologies:</b> Flask, HTML5, CSS, Django
-        </div>
-      </div>
-    </div>
-  </div>
-  
-  <div class="container">
-    <div class="section" id="contact">
-      <div class="cc-contact-information">
-        <div class="container" style="margin-top: 3rem;">
-          <div class="cc-contact">
-            <div class="row">
-              <!-- <div class="col-md-9"> -->
-                <div class="h4 text-center title" id="contact-us">
-                  Contact Us
-              </div>
-              <div class="card mb-0" data-aos="zoom-in">
-                  
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="card-body">
-                      <form action="/sendemail/" method="POST">
-                        <div class="p pb-3">
-                          <strong>Feel free to contact </strong>
+            <div class="col-md-10 offset-md-1">
+
+                <div class="row text-center">
+                    <div class="col">
+                        <div class="skill-bar-title">
+                            <i class="fab fa-html5 fa-3x"></i>
+                            <p>HTML5</p>
                         </div>
-                        <div class="row mb-3">
-                          <div class="col">
-                            <div class="input-group">
-                              <span class="input-group-addon"><i
-                                  class="fa fa-user-circle"></i></span>
-                              <input class="form-control" type="text" 
-                                     name="name" placeholder="Name"
-                                required="required" />
-                            </div>
-                          </div>
-                        </div>
-                        <div class="row mb-3">
-                          <div class="col">
-                            <div class="input-group">
-                              <span class="input-group-addon"><i
-                                  class="fa fa-file-text"></i></span>
-                              <input class="form-control" type="text" 
-                                     name="Subject" placeholder="Subject"
-                                required="required" />
-                            </div>
-                          </div>
-                        </div>
-                        <div class="row mb-3">
-                          <div class="col">
-                            <div class="input-group">
-                              <span class="input-group-addon"><i
-                                  class="fa fa-envelope"></i></span>
-                              <input class="form-control" type="email" 
-                                     name="_replyto" placeholder="E-mail"
-                                required="required" />
-                            </div>
-                          </div>
-                        </div>
-                        <div class="row mb-3">
-                          <div class="col">
-                            <div class="form-group">
-                              <textarea class="form-control" name="message" 
-                                        placeholder="Your Message"
-                                required="required"></textarea>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="row">
-                          <div class="col">
-  
-                            <button class="btn btn-primary" type="submit">
-                              Send
-                            </button>
-                            <a class="btn btn-primary" target="_blank"
-                              href="{{ url_for('static',filename='Suraj.pdf') }}" 
-                               data-aos="zoom-in"
-                              data-aos-anchor="data-aos-anchor">
-                              Download CV</a>
-  
-  
-                          </div>
-                        </div>
-                      </form>
                     </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="card-body">
-                      <p class="mb-0">
-                        <strong>Address </strong>
-                      </p>
-  
-                      <p class="pb-2">136, Royal Kapson, Noida, India, 800123</p>
-  
-                      <p class="mb-0"><strong>Phone</strong></p>
-  
-                      <p class="pb-2">+91 345-567-8346</p>
-  
-                      <p class="mb-0"><strong>Email</strong></p>
-  
-                        
-<p>skr@gmail.com</p>
-  
+
+                    <div class="col">
+                        <div class="skill-bar-title">
+                            <i class="fab fa-css3-alt fa-3x"></i>
+                            <p>CSS3</p>
+                        </div>
                     </div>
-                  </div>
+                    <div class="col">
+                        <div class="skill-bar-title">
+                            <i class="fab fa-js-square fa-3x"></i>
+                            <p>JavaScript</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="skill-bar-title">
+                            <i class="fab fa-node fa-3x"></i>
+                            <p>NodeJS</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="skill-bar-title">
+                            <i class="fab fa-git fa-3x"></i>
+                            <p>Git</p>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
         </div>
-      </div>
+
+    </section>
+
+    <div class="wave-svg-color">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="#328eff" opacity="1" width="100%" height="80"
+            preserveAspectRatio="none" viewBox="0 0 1600 200">
+            <path d="M-8,95.3C-8,95.3,189,2,398,2s604,184.7,800,184.7s412-91.4,412-91.4V271H-8V95.3z" />
+            <path
+                d="M1610,95.3c0,0-216,80-412,80c-98,0-245.8-40.5-395.1-80.9c149.4,46.2,297.1,92.3,395.1,92.3C1394,186.7,1610,95.3,1610,95.3z" />
+        </svg>
     </div>
-  </div>
-  </div>
-  </div>
-  
-  </div>
-  
-  
-  <!-- Optional JavaScript; choose one of the two! -->
-  
-  <!-- Option 1: Bootstrap Bundle with Popper -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
-  
+
+    <section class="container-color">
+    </section>
+    <section class="container">
+        <div class="card custom-card">
+            <div class="card-body">
+                <span class="card-icon">
+                    <i class="fas fa-code"></i>
+                </span>
+
+                <h3 class="card-title">More about Me</h3>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas scelerisque
+                    viverra vestibulum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+                    himenaeos. Vestibulum elementum fringilla lectus, ac condimentum mauris. Mauris vel tellus id tellus
+                    accumsan convallis sed sed elit. </p>
+                <h5 class="card-title">
+                    Technologies I use:
+                </h5>
+                <p class="card-text">
+                    HTML5, CSS3, Git, Bootstrap, JavaScript
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- TIMELINE -->
+    <section class="container">
+        <h1 class="title">Recent Projects</h1>
+        <h3 class="subtitle">These are just a few of the projects I have collaborated on.</h3>
+    </section>
+
+
+    <div class="container">
+        <div id="timeline">
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <i class="fas fa-star fa-align"></i>
+
+                </div>
+                <div class="timeline-content">
+                    <h2>Project Title 1</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Atque, facilis quo maiores magnam modi ab libero praesentium blanditiis.
+                    </p>
+                    <a href="https://github.com" class="btn"><i class="fab fa-github"></i> Code</a>
+                    <a href="#" class="btn"><i class="fas fa-tv"></i> Live Demo</a>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <i class="fas fa-star fa-align"></i>
+
+                </div>
+                <div class="timeline-content right">
+                    <h2>Project Title 2</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, facilis quo. Maiores magnam
+                        modi ab libero praesentium blanditiis consequatur aspernatur accusantium maxime molestiae sunt
+                        ipsa.
+                    </p>
+                    <a href="https://github.com" class="btn"><i class="fab fa-github"></i> Code</a>
+                    <a href="#" class="btn"><i class="fas fa-tv"></i> Live Demo</a>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <i class="fas fa-star fa-align"></i>
+                </div>
+                <div class="timeline-content">
+                    <h2>Project Title 3</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, facilis quo. Maiores magnam
+                        modi ab libero praesentium blanditiis consequatur aspernatur accusantium maxime molestiae sunt
+                        ipsa.
+                    </p>
+                    <a href="https://github.com" class="btn"><i class="fab fa-github"></i> Code</a>
+                    <a href="#" class="btn"><i class="fas fa-tv"></i> Live Demo</a>
+
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <i class="fas fa-star fa-align"></i>
+
+                </div>
+                <div class="timeline-content right">
+                    <h2>Project Title 4</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, facilis quo. Maiores magnam
+                        modi ab libero praesentium blanditiis consequatur aspernatur accusantium maxime molestiae sunt
+                        ipsa.
+                    </p>
+                    <a href="https://github.com" class="btn"><i class="fab fa-github"></i> Code</a>
+                    <a href="#" class="btn"><i class="fas fa-tv"></i> Live Demo</a>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <i class="fas fa-star fa-align"></i>
+                </div>
+                <div class="timeline-content">
+                    <h2>Project Title 5</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, facilis quo. Maiores magnam
+                        modi ab libero praesentium blanditiis consequatur aspernatur accusantium maxime molestiae sunt
+                        ipsa.
+                    </p>
+                    <a href="https://github.com" class="btn"><i class="fab fa-github"></i> Code</a>
+                    <a href="#" class="btn"><i class="fas fa-tv"></i> Live Demo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- EDUCATION -->
+    <section class="container education-container">
+        <h1 class="title">Education </h1>
+        <article class="education-item">
+            <h3 class="subtitle">Vanderbilt University</h3>
+            <span class="text-muted">Full-stack Web Development | Jan 2019 - Jul 2019</span>
+        </article>
+        <hr />
+        <article class="education-item">
+            <h3 class="subtitle">Vanderbilt University</h3>
+            <span class="text-muted">M.Ed. Higher Education | Aug 2014 - May 2016</span>
+        </article>
+        <hr />
+        <article class="education-item">
+            <h3 class="subtitle">University of Utah</h3>
+            <span class="text-muted">B.S. Electrical Engineering | Aug 2010 - May 2014</span>
+        </article>
+
+
+
+    </section>
+
+    <!-- AVAILABLE FOR WORK -->
+    <section class="container-color">
+        <div class="container">
+            <h1 class="title">I'm available for work.
+            </h1>
+            <h3 class="subtitle">Actively contributing to new projects and seeking a full-time role in a fast-paced,
+                agile environment. Get in touch!</h3>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <section class="container-dark">
+        <div class="container">
+            <h1>Contact Me</h1>
+            <h3 class="intro subtitle">
+                <a href="https://twitter.com" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="https://linkedin.com/in" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                <a href="jttps://github.com/" class="social-icon"><i class="fab fa-github"></i></a>
+                <a href="mailto:<YOUREMAIL>" class="social-icon"><i class="fas fa-envelope"></i></a>
+            </h3>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            John Doe &copy; 2019 - 2020 |
+
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+    <script src="static/js/app.js"></script>
 </body>
-  
+
 </html>
