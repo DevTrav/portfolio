@@ -26,11 +26,33 @@
 <body>
 
     <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">About Me</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Projects<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Education</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Connect</a>
+                </li>
+                <!--<li class="nav-item">
+                  <a class="nav-link disabled" href="#">Disabled</a>
+                </li>-->
+              </ul>
+            </div>
+          </nav>
         <div class="wave">
             <div class="container header-container">
                 <h1 class="name">John Doe.</h1>
                 <h3 class="subtitle text-center">Building beautiful applications that just work.</h3>
-                     <img src="static/images/portfolio_pic.png" class="boy" alt="boy image"/> 
+                     <img src="static/images/portfolio2.jpg" class="boy" alt="boy image"/> 
             </div>
         </div>
         <div class="wave-svg">
@@ -148,13 +170,13 @@
 
                 </div>
                 <div class="timeline-content">
-                    <h2>Project Title 1</h2>
+                    <h2>Movie Data ETL </h2>
+                        <img src="static/images/ETL_process.png" class="boy" alt="boy image"/>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Atque, facilis quo maiores magnam modi ab libero praesentium blanditiis.
+                        The purpose of this project was to create an automated pipeline that takes in raw data from Wikipedia, MovieLens and The Movie Database, then performs the appropriate transformations and finally loads the data into existing tables connected to a database. The data set includes movies from 1990 to 2018.
                     </p>
-                    <a href="https://github.com" class="btn"><i class="fab fa-github"></i> Code</a>
-                    <a href="#" class="btn"><i class="fas fa-tv"></i> Live Demo</a>
+                    <a href="https://github.com/DevTrav/Movies-ETL" class="btn"><i class="fab fa-github"></i> Code</a>
+                    <!--<a href="#" class="btn"><i class="fas fa-tv"></i> Live Demo</a>-->
                 </div>
             </div>
 
@@ -164,7 +186,42 @@
 
                 </div>
                 <div class="timeline-content right">
-                    <h2>Project Title 2</h2>
+                    <h2>PyBer Analysis</h2>
+                    <img src="static/images/Fig1.png" class="boy" alt="scatter plot"/>
+                    <p>
+                        A data visual analysis using Pandas to create a summary of the PyBer ride-sharing data in rural, suburban and urban cities and recommend improvements based the findings.
+                    </p>
+                    <a href="https://github.com/DevTrav/PyBer_Analysis" class="btn"><i class="fab fa-github"></i> Code</a>
+                    <a href="#" class="btn"><i class="fa-solid fa-blog"></i>Blog</a>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <i class="fas fa-star fa-align"></i>
+                </div>
+                <div class="timeline-content">
+                    <h2>Mars web scrapper </h2>
+                    <img src="static/images/portfolio_pic.png" class="boy" alt="boy image"/>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, facilis quo. Maiores magnam
+                        modi ab libero praesentium blanditiis consequatur aspernatur accusantium maxime molestiae sunt
+                        ipsa.
+                    </p>
+                    <a href="https://github.com" class="btn"><i class="fab fa-github"></i> Code</a>
+                    <a href="#" class="btn"><i class="fas fa-tv"></i> Live Demo</a>
+
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <i class="fas fa-star fa-align"></i>
+
+                </div>
+                <div class="timeline-content right">
+                    <h2>Stock Analysis VB App</h2>
+                        <img src="static/images/market.png" class="boy" alt="stock ticker"/>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, facilis quo. Maiores magnam
                         modi ab libero praesentium blanditiis consequatur aspernatur accusantium maxime molestiae sunt
@@ -180,45 +237,10 @@
                     <i class="fas fa-star fa-align"></i>
                 </div>
                 <div class="timeline-content">
-                    <h2>Project Title 3</h2>
+                    <h2>Relational Database Analysis</h2>
+                        <img src="static/images/EmployeeDB.png" class="boy" alt="boy image"/>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, facilis quo. Maiores magnam
-                        modi ab libero praesentium blanditiis consequatur aspernatur accusantium maxime molestiae sunt
-                        ipsa.
-                    </p>
-                    <a href="https://github.com" class="btn"><i class="fab fa-github"></i> Code</a>
-                    <a href="#" class="btn"><i class="fas fa-tv"></i> Live Demo</a>
-
-                </div>
-            </div>
-
-            <div class="timeline-item">
-                <div class="timeline-icon">
-                    <i class="fas fa-star fa-align"></i>
-
-                </div>
-                <div class="timeline-content right">
-                    <h2>Project Title 4</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, facilis quo. Maiores magnam
-                        modi ab libero praesentium blanditiis consequatur aspernatur accusantium maxime molestiae sunt
-                        ipsa.
-                    </p>
-                    <a href="https://github.com" class="btn"><i class="fab fa-github"></i> Code</a>
-                    <a href="#" class="btn"><i class="fas fa-tv"></i> Live Demo</a>
-                </div>
-            </div>
-
-            <div class="timeline-item">
-                <div class="timeline-icon">
-                    <i class="fas fa-star fa-align"></i>
-                </div>
-                <div class="timeline-content">
-                    <h2>Project Title 5</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, facilis quo. Maiores magnam
-                        modi ab libero praesentium blanditiis consequatur aspernatur accusantium maxime molestiae sunt
-                        ipsa.
+                        Demonstration of a relational assessment of employee data and detailed information on the future retirees presently working at the company.
                     </p>
                     <a href="https://github.com" class="btn"><i class="fab fa-github"></i> Code</a>
                     <a href="#" class="btn"><i class="fas fa-tv"></i> Live Demo</a>
