@@ -17,21 +17,27 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
-    <!-- Devicon-->
-
+    
+        <!-- Devicon-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
           
-
     <!-- Custom styles for this template -->
     <link href="Flask/static/css/app.css" rel="stylesheet" />
-    <title>John Doe | Portfolio</title>
+    <title>Travers La Ville | Portfolio</title>
 </head>
 
 <body>
-
+    <!--Back-to-top button-->
+    <div class="progress-bar fixed" >
+        <button class="back-to-top hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" class="back-to-top-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 11l5-5m0 0l5 5m-5-5v12" />
+          </svg>
+        </button>
+        </div>
     <header>
-        <nav class="navbar navbar-expand-sm sticky-top navbar-light bg-light">
-            <a class="navbar-brand" href="#top">About Me</a>
+        <nav class="navbar navbar-light bg-light px-3">
+            <a class="navbar-brand" href="#about">About Me</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -52,11 +58,13 @@
               </ul>
             </div>
           </nav>
+          
+        
         <div class="wave">
             <div class="container header-container">
                 <h1 class="name">Travers La Ville.</h1>
                 <h3 class="subtitle text-center">Building beautiful applications that just work.</h3>
-                     <img src="static/images/portfolio2.jpg" class="boy" alt="boy image"/> 
+                     <img src="Flask/static/images/portfolio2.jpg" class="boy" alt="boy image"/> 
             </div>
         </div>
         <div class="wave-svg">
@@ -68,13 +76,12 @@
             </svg>
         </div>
     </header>
+    
 
     <section class="container">
         <h1 class="title">Thanks for stopping by.
         </h1>
         <h3 class="subtitle">I am an enthusiastic Data Engineer with a passion for creating programatic solutions to make data-driven decisions. </h3>
-    </section>
-
 
     <section class="container skill-container">
         <div class="row">
@@ -115,7 +122,7 @@
                 </div>
             </div>
         </div>
-
+        <a id="back-to-top" href="#" class="btn btn-light btn-lg back-to-top" role="button"><i class="fas fa-chevron-up"></i></a>
     </section>
 
     <div class="wave-svg-color">
@@ -136,7 +143,7 @@
                     <i class="fas fa-code"></i>
                 </span>
 
-                <h3 class="card-title">More about Me</h3>
+                <h3 id="About"class="card-title">More about Me</h3>
                 <p class="card-text">Data Engineer with a background in software development, Dev Ops and skills in
                     Python, SQL, Javascript and certified from University of Texas at Austin in Data Analysis and data visualization.</p>
                     
@@ -146,7 +153,7 @@
                     <p class="card-text">Recently completed a web scraping project using, Python, Selenium, JavaScript, and
                     Flask to visualize current articles about Mars missions and general “Red planet” data.</p>
                     
-                    <p class="card-text">Strengths including analytical problem-solving abilities combined with collaborating across diverse groups, makes me a valuable addition to any team.</p>
+                    <p class="card-text">Strengths include: stringing sentences together from alphabet soup, seasoned "cat hearder" and experience collaborating across diverse, distributed global teams.</p>
                     
                     <p class="card=text">Checkout my recent projects below to see what I am currently curious about.</p>
                     
@@ -271,7 +278,8 @@
 
 
     <!-- EDUCATION -->
-    <section class="container education-container">
+    <section id="education" class="container education-container">
+       
         <h1 class="title">Education </h1>
         <article class="education-item">
             <h3 class="subtitle">Vanderbilt University</h3>
@@ -304,7 +312,7 @@
 
     <!-- FOOTER -->
     <section class="container-dark">
-        <div class="container">
+        <div id="connect"class="container">
             <h1>Contact Me</h1>
             <h3 class="intro subtitle">
                 <a href="https://twitter.com/travlaville" class="social-icon"><i class="fab fa-twitter"></i></a>
@@ -313,6 +321,7 @@
                 <a href="mailto:traverslaville@gmail.com" class="social-icon"><i class="fas fa-envelope"></i></a>
             </h3>
         </div>
+        
     </section>
     
 
@@ -322,7 +331,6 @@
 
         </div>
     </footer>
-
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
