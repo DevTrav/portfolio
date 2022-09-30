@@ -351,4 +351,29 @@ footer a {
   color: #7ac9f9;
 }
 
+.resume:link {
+  color: rgb(255, 253, 255);
+  background-color: transparent;
+  text-decoration: none;
+  
+}
+
+.resume:visited{
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.resume:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.resume:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
 
